@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar >
+    <button ion-button right menuToggle >
+      <ion-icon name="menu">
+       
+      </ion-icon>
+
+    </button>
+
+    <ion-title>Apply for a Job</ion-title>
+
+  </ion-navbar>
+</ion-header>
+<ion-content>
+        <ion-list>
+
+  <ion-item>
+    <ion-input type="text" placeholder="Full Name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="text" placeholder="Location"></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-datetime display-format="MM/DD/YYYY" placeholder="ion-datetime"></ion-datetime>
+</ion-item>
+<ion-item>
+  <input type="file" (change)="changeListener($event)" />
+</ion-item>
+
+</ion-list>
+
+<div text-center margin-top>
+    <button ion-button icon-start round block color="secondary" (click)="jobprofile()">
+        <ion-icon name="log-in"></ion-icon>
+        Send Enquiry
+      </button>
+</div>
+
+
+</ion-content>

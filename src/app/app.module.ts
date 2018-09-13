@@ -4,8 +4,13 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
-
+import { LoginPage } from '../pages/login/login';
+import { EmployerProfilePage } from '../pages/employerprofile/employerprofile';
+import { JobPage } from '../pages/job/job';
+import { JobProfilePage } from '../pages/jobseekerprofile/jobseekerprofile';
+import { JobSearchPage } from '../pages/jobsearch/jobsearch';
+import { JobWorkerPage } from '../pages/jobworker/jobworker';
+import { RandomWorkerPage } from '../pages/randomworker/randomworker';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -13,7 +18,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    LoginPage,
+    EmployerProfilePage,
+    JobPage,
+    JobProfilePage,
+    JobSearchPage,
+    JobWorkerPage,
+    RandomWorkerPage,
+    
   ],
   imports: [
     BrowserModule,
@@ -23,7 +35,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    LoginPage,
+    EmployerProfilePage,
+    JobPage,
+    JobProfilePage,
+    JobSearchPage,
+    JobWorkerPage,
+    RandomWorkerPage,
   ],
   providers: [
     StatusBar,
