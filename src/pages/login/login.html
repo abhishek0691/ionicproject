@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar >
+    <button ion-button right menuToggle >
+      <ion-icon name="menu">
+       
+      </ion-icon>
+
+    </button>
+
+    <ion-title>Login</ion-title>
+
+  </ion-navbar>
+</ion-header>
+<ion-content class="login-content" padding>
+    <ion-row class="logo-row">
+        <ion-col></ion-col>
+        <h5>LOGIN TO YOUR ACCOUNT</h5>
+
+        <ion-col></ion-col>
+        <hr class="style2">
+    </ion-row>
+    <div class="login-box">
+        <form>
+            <ion-row>
+                <ion-col>
+                    <ion-list inset>
+                        <ion-item>
+                            <ion-input type="text" placeholder="username or e-mail" name="email"  required></ion-input>
+                        </ion-item>
+                        <ion-item>
+                            <ion-input type="password" placeholder="password" name="password"  required></ion-input>
+                        </ion-item>
+                    </ion-list>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col class="signup-col">
+                    <button style="  margin: -12px;" ion-button icon-start round block color="secondary" class="login" (click)="EmployeeProfilePage()">
+                        <ion-icon name="log-in"></ion-icon>
+                        Login Now  
+                    </button>
+                    <a class="forgetpwd">FORGET PASSWORD?</a> | <a class="registera">REGISTER AN ACCOUNT</a>
+                </ion-col>
+            </ion-row>
+        </form>
+    </div>
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+        <ion-title>Copyright © 2018 By Goodpeople Jobs</ion-title>
+        <p>www.goodpeople.jobs.com</p>
+    </ion-toolbar>
+</ion-footer>

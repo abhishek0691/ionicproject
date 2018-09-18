@@ -1,18 +1,33 @@
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
+    <button ion-button right menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <img src="assets/imgs/logo.png" width="100%" height="50%">
+  <h3 text-center text-color="blue">MOVE UP TO TODAY!</h3>
+  <h4 text-center>Find Jobs,Employment & Opportunities</h4>
+ <div text-center margin-top>
+     <button ion-button icon-start round block color="skyblue" class="signup">
+        <ion-icon name="log-in"></ion-icon>
+        Sign Up Now
+      </button>
+    </div>
+    <div text-center margin-top>
+        <button ion-button icon-start round block color="secondary" class="login" (click)="loginPage()">
+        <ion-icon name="log-in"></ion-icon>
+        Login to your account
+      </button>
+ 
+    </div>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title>Copyright © 2018 By Goodpeople Jobs</ion-title>
+      <p>www.goodpeople.jobs.com</p>
+    </ion-toolbar>
+  </ion-footer>

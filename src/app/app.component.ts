@@ -4,7 +4,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { LoginPage } from '../pages/login/login';
+import { EmployerProfilePage } from '../pages/employerprofile/employerprofile';
+import { JobPage } from '../pages/job/job';
+import { JobProfilePage } from '../pages/jobseekerprofile/jobseekerprofile';
+import { JobSearchPage } from '../pages/jobsearch/jobsearch';
+import { JobWorkerPage } from '../pages/jobworker/jobworker';
+import { RandomWorkerPage } from '../pages/randomworker/randomworker';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +29,14 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Login', component: LoginPage },
+      { title: 'Employer Profile', component: EmployerProfilePage },
+      { title: 'Job', component: JobPage },
+      { title: 'Job Profile', component: JobProfilePage },
+      { title: 'Job Search', component: JobSearchPage },
+      { title: 'Job Worker', component: JobWorkerPage },
+      { title: 'Random Worker', component: RandomWorkerPage },
+     
     ];
 
   }

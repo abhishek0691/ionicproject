@@ -1,0 +1,103 @@
+login-home {
+    .login-content {
+        .logo-row {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+
+        .login-box {
+
+            padding: 20px 20px 0px 20px;
+            margin-top: 30px;
+        }
+
+        ion-row {
+            align-items: center;
+            text-align: center;
+        }
+
+        ion-item {
+
+            border-radius: 30px !important;
+            margin-bottom: 16px;
+            border: 1px solid #ffffff;
+            border-bottom: 0px !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+
+        }
+
+        .signup-col {
+            margin: 0px 16px 0px 16px;
+            padding-bottom: 20px;
+        }
+
+        .item-inner {
+            border-bottom-color: #ffffff !important;
+            box-shadow: none !important;
+        }
+
+        .submit-btn {
+            background: #51CFB1;
+            border-radius: 30px !important;
+            border: 1px solid #ffffff;
+        }
+
+        .register-btn {
+            color: #ffffff;
+            font-size: 0.8em;
+        }
+    }
+    .item-input ion-input, .item-input ion-textarea {
+        position: static;
+        background: #e0e0e0;
+        padding: 0px 10px;
+    }
+    .item-md.item-block .item-inner {
+        padding-right: 0;
+        border-bottom: 1px solid #dedede;
+    }
+    hr.style2 {
+        border-top: 3px double #488aff;
+    }
+    hr {
+        height: 1px;
+        border-width: 0;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 40%;
+    }
+    h5 {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+    }
+    h3 {
+        color: #0c99d6;
+        font-size: 16px;
+    }
+    
+    p {
+        text-align: center;
+        color: #149dd8;
+        font-size: 16px;
+    }
+    .forgetpwd{
+        font-size: 11px;
+        line-height: 6em;
+    }
+    .registera{
+        color: #000;
+        font-size: 11px;
+        line-height: 6em;
+    }
+   
+    .login {
+    padding: 28px !important;
+    font-size: 18px !important;
+    background: #127b31 !important;
+        margin: -12px;
+}
+
+
+}

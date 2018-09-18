@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-navbar >
+    <button ion-button right menuToggle >
+      <ion-icon name="menu">
+       
+      </ion-icon>
+
+    </button>
+
+    <ion-title>Job Seaker Search</ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+   
+    <ion-content class="card-background-page" padding>
+        <ion-grid>
+            <ion-row >
+                <ion-col col-12>
+                   <p style="text-align:center">SEARCH FOR WORKER</p>
+                   <hr>
+                 </ion-col>   
+                 
+                 <ion-col col-12>
+                     <button ion-button color="dark" round style="padding:27px;margin-left:38px;">Keywords(e.g. Skills...)</button>
+                 </ion-col> 
+                 <ion-col col-12>
+                     <button ion-button color="dark" round style="padding:27px;margin-left:47px;">Location(e.g. City Zip...)</button>
+                 </ion-col>
+                 <ion-col col-12>
+                     <button ion-button color="dark" round style="padding:27px;margin-left:66px;">Budget 300-500$ )</button>
+                 </ion-col>
+            </ion-row>
+             <ion-row >
+                <ion-col col-6>
+                    <ion-item>
+                      <ion-label>Full Time</ion-label>
+                      <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+                    </ion-item>
+                </ion-col> 
+                <ion-col col-6>
+                    <ion-item>
+                      <ion-label>Part Time</ion-label>
+                      <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+                    </ion-item>
+                </ion-col> 
+          </ion-row> 
+
+           <ion-row >
+                <ion-col col-6>
+                    <ion-item>
+                      <ion-label>Weekend</ion-label>
+                      <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+                    </ion-item>
+                </ion-col> 
+                <ion-col col-6>
+                    <ion-item>
+                      <ion-label>Freelance</ion-label>
+                      <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+                    </ion-item>
+                </ion-col> 
+          </ion-row>       
+               
+               <p>Distance 40 km</p>
+
+          <ion-row>
+            <ion-col col-12>
+                <ion-item>
+                  <ion-range [(ngModel)]="singleValue" color="danger" pin="true"></ion-range>
+                </ion-item>
+            </ion-col>
+          </ion-row>      
+          
+          <ion-row>
+                  <ion-col col-12>
+                    <button ion-button color="secondary" round (click)="randomworkerlink()">SEARCH FOR WORKER</button>
+                  </ion-col> 
+          </ion-row>                      
+        </ion-grid>
+</ion-content>
+
+
